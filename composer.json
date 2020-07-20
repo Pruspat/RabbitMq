@@ -1,0 +1,10 @@
+{
+    "name": "patrykprus/rabbit-mq",
+    "authors": [
+        {
+            "name": "papryk",
+            "email": "pruspat@gmail.com"
+        }
+    ],
+    "require": {}
+}
