@@ -1,0 +1,22 @@
+{
+  "name": "rabbitmq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pruspat/RabbitMq.git"
+  },
+  "author": "pruspat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pruspat/RabbitMq/issues"
+  },
+  "homepage": "https://github.com/Pruspat/RabbitMq#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
