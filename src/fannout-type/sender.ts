@@ -13,7 +13,7 @@ amqp.connect('amqp://localhost', (connError, connection) => {
       }
   
       let exchange = 'logs';
-      let msg = process.argv.slice(2).join(' ') || "Hello World!";
+      let msg = process.argv.slice(2).join(' ') || "DEFAULT MSG!";
 
     channel.assertExchange(exchange, 'fanout', {
         durable: false
